@@ -14,7 +14,7 @@
 
 ## 🚀 Featured projects
 
-### Patient Appointment System
+### Patient Appointment System (private repository)
 A full clinic appointment platform: a Flutter client (Windows, Android, iOS, web) talking to an ASP.NET Core Web API backed by PostgreSQL.
 - Role-based access (admin, manager, receptionist) with JWT access and refresh tokens
 - Real-time updates across devices over SignalR
