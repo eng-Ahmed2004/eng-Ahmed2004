@@ -2,6 +2,14 @@
 
 **Flutter developer** building cross-platform apps with clean architecture, real backends, and first-class Arabic (RTL) support. I also work with ASP.NET Core on the server side and with Python for machine learning coursework.
 
+<p>
+  <a href="https://www.linkedin.com/in/ahmed-srour-335844405"><img src="assets/linkedin.svg" alt="LinkedIn" title="LinkedIn" width="40" height="40"></a>
+  &nbsp;
+  <a href="https://www.facebook.com/ahmed.srour.167"><img src="assets/facebook.svg" alt="Facebook" title="Facebook" width="40" height="40"></a>
+  &nbsp;
+  <a href="https://www.instagram.com/ahmed_srour2004/"><img src="assets/instagram.svg" alt="Instagram" title="Instagram" width="40" height="40"></a>
+</p>
+
 ## 🛠 Tech stack
 
 | Area | Tools |
