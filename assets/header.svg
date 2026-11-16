@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-label="Ahmed Srour, Flutter and Mobile Application Developer">
+  <title>Ahmed Srour, Flutter and Mobile Application Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#0B1B33"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF"/><stop offset="1" stop-color="#39D0D8"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#58A6FF" stop-opacity=".30"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#39D0D8" stop-opacity=".20"/><stop offset="1" stop-color="#39D0D8" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#21262D"/></pattern>
+    <linearGradient id="dotsFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotsMask"><rect width="960" height="320" fill="url(#dotsFade)"/></mask>
+    <clipPath id="frame"><rect width="960" height="320" rx="18"/></clipPath>
+    <clipPath id="screen"><rect x="738" y="52" width="124" height="216" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    .d1{animation-delay:.10s}.d2{animation-delay:.25s}.d3{animation-delay:.40s}.d4{animation-delay:.55s}.d5{animation-delay:.70s}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:grow 1.1s .5s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    .orbA{animation:driftA 16s ease-in-out infinite alternate}
+    .orbB{animation:driftB 20s ease-in-out infinite alternate}
+    @keyframes driftA{from{transform:translate(0,0)}to{transform:translate(-40px,26px)}}
+    @keyframes driftB{from{transform:translate(0,0)}to{transform:translate(36px,-22px)}}
+    .float{animation:float 7s ease-in-out infinite alternate}
+    .f2{animation-duration:9s;animation-delay:-3s}.f3{animation-duration:8s;animation-delay:-5s}
+    @keyframes float{from{transform:translateY(-5px)}to{transform:translateY(5px)}}
+    .sk{animation:shimmer 3.6s ease-in-out infinite}
+    .s2{animation-delay:.5s}.s3{animation-delay:1s}.s4{animation-delay:1.5s}
+    @keyframes shimmer{0%,100%{opacity:.35}50%{opacity:.9}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.12);opacity:1}}
+    .node{animation:shimmer 4s ease-in-out infinite}
+    .n2{animation-delay:.8s}.n3{animation-delay:1.6s}.n4{animation-delay:2.4s}
+    .dash{stroke-dasharray:4 6;animation:dash 6s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-100}}
+    .caret{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="320" fill="url(#bg)"/>
+    <rect width="960" height="320" fill="url(#dots)" mask="url(#dotsMask)"/>
+    <circle class="orbA" cx="820" cy="40" r="240" fill="url(#glowA)"/>
+    <circle class="orbB" cx="640" cy="330" r="200" fill="url(#glowB)"/>
+
+    <!-- dashed links between the floating elements -->
+    <g fill="none" stroke="#58A6FF" stroke-opacity=".35" stroke-width="1.2">
+      <path class="dash" d="M690 104 C 712 104, 720 120, 738 126"/>
+      <path class="dash" d="M862 200 C 880 204, 884 222, 896 230"/>
+      <path class="dash" d="M694 232 C 712 228, 722 214, 738 210"/>
+    </g>
+
+    <!-- phone -->
+    <g class="rise d3">
+      <rect x="730" y="40" width="140" height="240" rx="22" fill="#0D1117" fill-opacity=".85" stroke="url(#acc)" stroke-width="2"/>
+      <rect x="782" y="48" width="36" height="6" rx="3" fill="#30363D"/>
+      <g clip-path="url(#screen)">
+        <rect x="738" y="62" width="124" height="30" fill="#161B22"/>
+        <circle cx="754" cy="77" r="6" fill="url(#acc)"/>
+        <rect class="sk" x="768" y="73" width="52" height="8" rx="4" fill="#C9D1D9"/>
+        <rect x="748" y="104" width="104" height="44" rx="8" fill="#161B22" stroke="#30363D"/>
+        <rect class="sk s2" x="758" y="116" width="58" height="7" rx="3.5" fill="#58A6FF"/>
+        <rect class="sk s3" x="758" y="130" width="82" height="6" rx="3" fill="#8B949E"/>
+        <rect x="748" y="158" width="104" height="44" rx="8" fill="#161B22" stroke="#30363D"/>
+        <rect class="sk s3" x="758" y="170" width="44" height="7" rx="3.5" fill="#39D0D8"/>
+        <rect class="sk s4" x="758" y="184" width="74" height="6" rx="3" fill="#8B949E"/>
+        <rect x="748" y="212" width="104" height="44" rx="8" fill="#161B22" stroke="#30363D"/>
+        <rect class="sk s4" x="758" y="224" width="66" height="7" rx="3.5" fill="#58A6FF"/>
+        <rect class="sk" x="758" y="238" width="50" height="6" rx="3" fill="#8B949E"/>
+      </g>
+      <circle class="pulse" cx="838" cy="244" r="13" fill="url(#acc)"/>
+      <path d="M838 238v12M832 244h12" stroke="#0D1117" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+
+    <!-- code chip -->
+    <g class="rise d4"><g class="float">
+      <rect x="612" y="84" width="78" height="40" rx="10" fill="#161B22" stroke="#30363D"/>
+      <text x="651" y="110" text-anchor="middle" font-family="'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" font-weight="600" fill="#58A6FF">&lt;/&gt;</text>
+    </g></g>
+
+    <!-- model graph chip -->
+    <g class="rise d5"><g class="float f2">
+      <rect x="884" y="206" width="60" height="56" rx="12" fill="#161B22" stroke="#30363D"/>
+      <g stroke="#8B949E" stroke-opacity=".7" stroke-width="1.2">
+        <path d="M898 222L914 234M898 246L914 234M914 234L930 224M914 234L930 244"/>
+      </g>
+      <circle class="node" cx="898" cy="222" r="3.5" fill="#58A6FF"/>
+      <circle class="node n2" cx="898" cy="246" r="3.5" fill="#58A6FF"/>
+      <circle class="node n3" cx="914" cy="234" r="4.5" fill="#39D0D8"/>
+      <circle class="node n4" cx="930" cy="224" r="3.5" fill="#58A6FF"/>
+      <circle class="node n2" cx="930" cy="244" r="3.5" fill="#58A6FF"/>
+    </g></g>
+
+    <!-- terminal chip -->
+    <g class="rise d5"><g class="float f3">
+      <rect x="606" y="212" width="90" height="40" rx="10" fill="#161B22" stroke="#30363D"/>
+      <text x="620" y="237" font-family="'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#8B949E">$ run</text>
+      <rect class="caret" x="668" y="225" width="8" height="15" rx="1.5" fill="#39D0D8"/>
+    </g></g>
+
+    <!-- text -->
+    <text class="rise d1" x="58" y="88" font-family="'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="3.2" fill="#39D0D8">FLUTTER  ·  MOBILE  ·  AI</text>
+    <text class="rise d2" x="55" y="158" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1" fill="#E6EDF3">Ahmed Srour</text>
+    <rect class="bar" x="58" y="178" width="76" height="4" rx="2" fill="url(#acc)"/>
+    <text class="rise d3" x="58" y="222" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#C9D1D9">Flutter &amp; Mobile Application Developer</text>
+    <text class="rise d4" x="58" y="254" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#8B949E">Smart Systems &amp; Computer Engineering  ·  Al-Aqsa University</text>
+    <g class="rise d5">
+      <circle cx="63" cy="279" r="3.5" fill="#58A6FF"/>
+      <text x="76" y="284" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#8B949E">Gaza, Palestine</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="319" rx="17.5" fill="none" stroke="#30363D"/>
+</svg>

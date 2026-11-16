@@ -1,59 +1,177 @@
-# Hi, I'm Ahmed Srour 👋
+<div align="center">
+  <img src="assets/header.svg" width="100%" alt="Ahmed Srour, Flutter and Mobile Application Developer. Smart Systems and Computer Engineering, Al-Aqsa University. Gaza, Palestine.">
+</div>
 
-**Flutter developer** building cross-platform apps with clean architecture, real backends, and first-class Arabic (RTL) support. I also work with ASP.NET Core on the server side and with Python for machine learning coursework.
-
-<p>
-  <a href="https://www.linkedin.com/in/ahmed-srour-335844405"><img src="assets/linkedin.svg" alt="LinkedIn" title="LinkedIn" width="40" height="40"></a>
-  &nbsp;
-  <a href="https://www.facebook.com/ahmed.srour.167"><img src="assets/facebook.svg" alt="Facebook" title="Facebook" width="40" height="40"></a>
-  &nbsp;
-  <a href="https://www.instagram.com/ahmed_srour2004/"><img src="assets/instagram.svg" alt="Instagram" title="Instagram" width="40" height="40"></a>
+<p align="center">
+  <img src="assets/typing.svg" width="640" alt="Final-year Computer Engineering student. Flutter and mobile application developer. Exploring AI and data science. Technical team member at GDG on Campus.">
 </p>
 
-## 🛠 Tech stack
+<p align="center">
+  <a href="https://ahmed-portfolio-orcin-chi.vercel.app"><b>Portfolio</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ahmed-srour-335844405/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:ahmadsrour537@gmail.com"><b>Email</b></a>
+</p>
 
-| Area | Tools |
-| --- | --- |
-| **Mobile & desktop** | Flutter, Dart, Riverpod, go_router, Dio, SQLite (sqflite / Drift) |
-| **Backend** | ASP.NET Core (.NET 10), Entity Framework Core, PostgreSQL, SignalR, JWT auth, Docker |
-| **Data & ML** | Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter |
-| **Web** | HTML, CSS, JavaScript |
-| **Tooling** | Git & GitHub, Android Studio, VS Code |
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🚀 Featured projects
+## About me
 
-### Patient Appointment System (private repository)
-A full clinic appointment platform: a Flutter client (Windows, Android, iOS, web) talking to an ASP.NET Core Web API backed by PostgreSQL.
-- Role-based access (admin, manager, receptionist) with JWT access and refresh tokens
-- Real-time updates across devices over SignalR
-- Booking rules with double-booking protection, patient records, and visit history
-- PDF and Excel reports, audit log, backup and restore, admin recovery flow
-- Arabic and English localization, with unit tests on both client and server
+I'm Ahmed, a final-year Smart Systems and Computer Engineering student at Al-Aqsa University in Gaza, Palestine. Most of what I build is mobile. I work with Flutter and Dart, and I care about how an app is put together underneath as much as how it looks on screen.
 
-`Flutter` `Riverpod` `ASP.NET Core` `EF Core` `PostgreSQL` `SignalR`
+Alongside mobile, I'm drawn to artificial intelligence and data science. I've worked through machine learning projects in Python, and AI-assisted tools are part of how I plan, write, and review code.
 
-### [Student Management App](https://github.com/eng-Ahmed2004/student-management-app)
-A Flutter app for managing student records, built for a Mobile Application Development course.
-- Full CRUD on a local SQLite database, with search
-- Persistent login session using SharedPreferences
-- Profile and settings screens
+I learn fastest by building things people can use, so my projects tend to start from a real need: a clinic that needs one shared appointment schedule, a course that needs a working app, a dataset that has to be cleaned before anyone can model it. I'm also part of the developer community on campus, as a member of the GDG technical team.
 
-`Flutter` `Dart` `SQLite` `SharedPreferences`
+<img src="assets/divider.svg" width="100%" alt="">
 
-### [Customer Personality Analysis](https://github.com/eng-Ahmed2004/customer-personality-analysis)
-An end-to-end machine learning notebook on a marketing dataset of about 2,200 customers.
-- Regression on total spending: Linear, Ridge, and Decision Tree (best R² 0.84)
-- Classification of campaign response: Logistic Regression, KNN, and Random Forest, compared on F1 for an imbalanced target
-- Customer segmentation with K-Means, the elbow method, and PCA visualisation
+## Community
 
-`Python` `scikit-learn` `pandas` `Seaborn`
+<table>
+  <tr>
+    <td width="150" align="center">
+      <img src="assets/gdg-logo.png" width="104" alt="Google Developer Groups logo">
+    </td>
+    <td>
+      <b>Google Developer Groups on Campus – Al-Aqsa University</b><br>
+      Technical Team Member<br><br>
+      <img src="assets/gdg-bar.svg" width="160" alt=""><br><br>
+      A student developer community at Al-Aqsa University. I'm part of its technical team.
+    </td>
+  </tr>
+</table>
 
-### [House Prices Preprocessing](https://github.com/eng-Ahmed2004/house-prices-preprocessing)
-A data preparation pipeline for the Kaggle House Prices dataset: memory optimisation, cleaning, outlier removal, EDA, feature engineering, and encoding (81 raw columns to 329 model-ready features).
+<img src="assets/divider.svg" width="100%" alt="">
 
-`Python` `pandas` `NumPy` `Matplotlib`
+## Technical skills
 
-### [Phone Compare Pro](https://github.com/eng-Ahmed2004/phone-compare-pro)
-A responsive phone comparison site in plain HTML, CSS, and JavaScript: filter by brand and price, sort, compare two devices side by side, save favourites to local storage, and switch to dark mode. [Live demo](https://eng-ahmed2004.github.io/phone-compare-pro/)
+<table>
+  <tr>
+    <td width="210"><b>Programming languages</b></td>
+    <td>
+      <img src="assets/icons/dart.svg" width="44" height="44" alt="Dart" title="Dart">&nbsp;
+      <img src="assets/icons/python.svg" width="44" height="44" alt="Python" title="Python">&nbsp;
+      <img src="assets/icons/java.svg" width="44" height="44" alt="Java" title="Java"><br>
+      <sub>Dart · Python · Java</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Mobile development</b></td>
+    <td>
+      <img src="assets/icons/flutter.svg" width="44" height="44" alt="Flutter" title="Flutter"><br>
+      <sub>Flutter</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Tools and technologies</b></td>
+    <td>
+      <img src="assets/icons/git.svg" width="44" height="44" alt="Git" title="Git">&nbsp;
+      <img src="assets/icons/github.svg" width="44" height="44" alt="GitHub" title="GitHub">&nbsp;
+      <img src="assets/icons/sqlite.svg" width="44" height="44" alt="SQLite" title="SQLite">&nbsp;
+      <img src="assets/icons/docker.svg" width="44" height="44" alt="Docker" title="Docker">&nbsp;
+      <img src="assets/icons/linux.svg" width="44" height="44" alt="Linux" title="Linux">&nbsp;
+      <img src="assets/icons/androidstudio.svg" width="44" height="44" alt="Android Studio" title="Android Studio">&nbsp;
+      <img src="assets/icons/vscode.svg" width="44" height="44" alt="VS Code" title="VS Code"><br>
+      <sub>Git · GitHub · SQLite · Docker · Linux · Android Studio · VS Code</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI and development</b></td>
+    <td>
+      <img src="assets/icons/langchain.svg" width="44" height="44" alt="LangChain" title="LangChain">&nbsp;
+      <img src="assets/icons/claude.svg" width="44" height="44" alt="Claude" title="Claude"><br>
+      <sub>LangChain · Claude · AI-assisted development tools</sub>
+    </td>
+  </tr>
+</table>
 
-`HTML` `CSS` `JavaScript`
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Patient Appointment System</b><br><br>
+      A clinic appointment platform: a Flutter client for desktop and mobile, backed by an ASP.NET Core API and PostgreSQL. Role-based access, real-time updates between devices, PDF and Excel reports, and Arabic and English localization.<br><br>
+      <code>Flutter</code> <code>Riverpod</code> <code>ASP.NET Core</code> <code>PostgreSQL</code> <code>SignalR</code><br><br>
+      <sub>Private repository</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/eng-Ahmed2004/student-management-app">Student Management App</a></b><br><br>
+      A Flutter app for managing student records, built for a Mobile Application Development course. Full CRUD on a local SQLite database, search, a persistent login session, and a dark mode setting.<br><br>
+      <code>Flutter</code> <code>Dart</code> <code>SQLite</code> <code>SharedPreferences</code><br><br>
+      <sub><a href="https://github.com/eng-Ahmed2004/student-management-app">Repository</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/eng-Ahmed2004/customer-personality-analysis">Customer Personality Analysis</a></b><br><br>
+      A machine learning notebook on a marketing dataset of 2,240 customers: regression on spending, classification of campaign response, and customer segmentation with K-Means and PCA.<br><br>
+      <code>Python</code> <code>scikit-learn</code> <code>pandas</code> <code>Seaborn</code><br><br>
+      <sub><a href="https://github.com/eng-Ahmed2004/customer-personality-analysis">Repository</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/eng-Ahmed2004/house-prices-preprocessing">House Prices Preprocessing</a></b><br><br>
+      A data preparation pipeline for the Kaggle House Prices dataset: cleaning, outlier removal, exploratory analysis, feature engineering, and encoding into model-ready tables.<br><br>
+      <code>Python</code> <code>pandas</code> <code>NumPy</code> <code>Matplotlib</code><br><br>
+      <sub><a href="https://github.com/eng-Ahmed2004/house-prices-preprocessing">Repository</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/eng-Ahmed2004/ahmed-portfolio">Personal Portfolio</a></b><br><br>
+      My portfolio site, in English and Arabic with dark and light themes. Content lives in data files, separate from the components that render it.<br><br>
+      <code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Framer Motion</code><br><br>
+      <sub><a href="https://github.com/eng-Ahmed2004/ahmed-portfolio">Repository</a> · <a href="https://ahmed-portfolio-orcin-chi.vercel.app">Live site</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/eng-Ahmed2004/phone-compare-pro">Phone Compare Pro</a></b><br><br>
+      A responsive phone comparison site with filtering, sorting, side-by-side comparison, saved favourites, and dark mode, written without frameworks.<br><br>
+      <code>HTML</code> <code>CSS</code> <code>JavaScript</code><br><br>
+      <sub><a href="https://github.com/eng-Ahmed2004/phone-compare-pro">Repository</a> · <a href="https://eng-ahmed2004.github.io/phone-compare-pro/">Live demo</a></sub>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## GitHub activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/stats.svg" height="190" alt="GitHub contribution statistics">
+  <img src="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/languages.svg" height="190" alt="Most used languages">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/streak.svg" height="190" alt="GitHub contribution streak">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/eng-Ahmed2004/eng-Ahmed2004/output/snake-dark.svg" width="100%" alt="Animation of a snake moving across my GitHub contribution graph">
+  </picture>
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Contact
+
+<p align="center">
+  <a href="mailto:ahmadsrour537@gmail.com"><img src="assets/icons/gmail.svg" width="46" height="46" alt="Email" title="Email"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ahmed-srour-335844405/"><img src="assets/icons/linkedin.svg" width="46" height="46" alt="LinkedIn" title="LinkedIn"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/eng-Ahmed2004"><img src="assets/icons/github.svg" width="46" height="46" alt="GitHub" title="GitHub"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/ahmed.srour.167"><img src="assets/icons/facebook.svg" width="46" height="46" alt="Facebook" title="Facebook"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/ahmed_srour2004/"><img src="assets/icons/instagram.svg" width="46" height="46" alt="Instagram" title="Instagram"></a>
+</p>
+
+<p align="center">
+  <sub>Open to collaboration on Flutter and mobile projects. The fastest way to reach me is email or LinkedIn.</sub>
+</p>

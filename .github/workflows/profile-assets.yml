@@ -1,0 +1,80 @@
+# Regenerates the images the profile README loads from the `output` branch:
+# the contribution snake and the statistics cards.
+#
+# The cards come from public services. If one of them is down, the copy from
+# the previous run is kept, so the README never shows a broken image.
+name: Update profile assets
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # once a day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-assets.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate the contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#0969DA&color_dots=#EBEDF0,#B6E3FF,#54AEFF,#0969DA,#0A3069
+            dist/snake-dark.svg?color_snake=#58A6FF&color_dots=#161B22,#0C2D6B,#1158C7,#388BFD,#79C0FF
+
+      - name: Fetch the statistics cards
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -u
+          mkdir -p dist
+          # Previous copies, used as a fallback when a service is unavailable.
+          git clone --quiet --depth 1 --branch output "https://github.com/${REPO}.git" prev 2>/dev/null || mkdir -p prev
+
+          fetch() {
+            out="$1"; url="$2"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 40 "$url" -o "dist/$out.tmp" \
+              && grep -q "<svg" "dist/$out.tmp" \
+              && ! grep -qiE "something went wrong|rate limit" "dist/$out.tmp"; then
+              mv "dist/$out.tmp" "dist/$out"
+              echo "updated   $out"
+            else
+              rm -f "dist/$out.tmp"
+              if [ -f "prev/$out" ]; then
+                cp "prev/$out" "dist/$out"
+                echo "::warning::$out could not be refreshed, kept the previous copy"
+              else
+                echo "::warning::$out is unavailable and there is no previous copy"
+              fi
+            fi
+          }
+
+          CARDS="https://github-profile-summary-cards.vercel.app/api/cards"
+          fetch stats.svg     "$CARDS/stats?username=${USER_NAME}&theme=github_dark"
+          fetch languages.svg "$CARDS/repos-per-language?username=${USER_NAME}&theme=github_dark"
+          fetch streak.svg    "https://streak-stats.demolab.com/?user=${USER_NAME}&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&border_radius=6"
+          ls -la dist
+
+      - name: Publish to the output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit --quiet -m "Update profile assets"
+          git push --quiet --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

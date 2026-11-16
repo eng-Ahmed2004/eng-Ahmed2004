@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 6" width="240" height="6" role="presentation" aria-hidden="true">
+  <style>
+    .s{animation:glow 3.6s ease-in-out infinite}.s0{animation-delay:0.0s}.s1{animation-delay:0.45s}.s2{animation-delay:0.9s}.s3{animation-delay:1.35s}
+    @keyframes glow{0%,100%{opacity:.55}35%{opacity:1}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect class="s s0" x="0" y="0" width="54" height="6" rx="3" fill="#4285F4"/><rect class="s s1" x="62" y="0" width="54" height="6" rx="3" fill="#EA4335"/><rect class="s s2" x="124" y="0" width="54" height="6" rx="3" fill="#FBBC04"/><rect class="s s3" x="186" y="0" width="54" height="6" rx="3" fill="#34A853"/>
+</svg>
