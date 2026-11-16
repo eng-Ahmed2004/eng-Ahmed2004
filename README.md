@@ -30,8 +30,8 @@ I learn fastest by building things people can use, so my projects tend to start 
 
 <table>
   <tr>
-    <td width="150" align="center">
-      <img src="assets/gdg-logo.png" width="104" alt="Google Developer Groups logo">
+    <td align="center">
+      <img src="assets/gdg-logo.png" width="84" alt="Google Developer Groups logo">
     </td>
     <td>
       <b>Google Developer Groups on Campus – Al-Aqsa University</b><br>
@@ -46,45 +46,46 @@ I learn fastest by building things people can use, so my projects tend to start 
 
 ## Technical skills
 
-<table>
-  <tr>
-    <td width="210"><b>Programming languages</b></td>
-    <td>
-      <img src="assets/icons/dart.svg" width="44" height="44" alt="Dart" title="Dart">&nbsp;
-      <img src="assets/icons/python.svg" width="44" height="44" alt="Python" title="Python">&nbsp;
-      <img src="assets/icons/java.svg" width="44" height="44" alt="Java" title="Java"><br>
-      <sub>Dart · Python · Java</sub>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Mobile development</b></td>
-    <td>
-      <img src="assets/icons/flutter.svg" width="44" height="44" alt="Flutter" title="Flutter"><br>
-      <sub>Flutter</sub>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Tools and technologies</b></td>
-    <td>
-      <img src="assets/icons/git.svg" width="44" height="44" alt="Git" title="Git">&nbsp;
-      <img src="assets/icons/github.svg" width="44" height="44" alt="GitHub" title="GitHub">&nbsp;
-      <img src="assets/icons/sqlite.svg" width="44" height="44" alt="SQLite" title="SQLite">&nbsp;
-      <img src="assets/icons/docker.svg" width="44" height="44" alt="Docker" title="Docker">&nbsp;
-      <img src="assets/icons/linux.svg" width="44" height="44" alt="Linux" title="Linux">&nbsp;
-      <img src="assets/icons/androidstudio.svg" width="44" height="44" alt="Android Studio" title="Android Studio">&nbsp;
-      <img src="assets/icons/vscode.svg" width="44" height="44" alt="VS Code" title="VS Code"><br>
-      <sub>Git · GitHub · SQLite · Docker · Linux · Android Studio · VS Code</sub>
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI and development</b></td>
-    <td>
-      <img src="assets/icons/langchain.svg" width="44" height="44" alt="LangChain" title="LangChain">&nbsp;
-      <img src="assets/icons/claude.svg" width="44" height="44" alt="Claude" title="Claude"><br>
-      <sub>LangChain · Claude · AI-assisted development tools</sub>
-    </td>
-  </tr>
-</table>
+**Programming languages**
+
+<p>
+  <img src="assets/icons/dart.svg" width="44" height="44" alt="Dart" title="Dart">
+  <img src="assets/icons/python.svg" width="44" height="44" alt="Python" title="Python">
+  <img src="assets/icons/java.svg" width="44" height="44" alt="Java" title="Java">
+  <br>
+  <sub>Dart · Python · Java</sub>
+</p>
+
+**Mobile development**
+
+<p>
+  <img src="assets/icons/flutter.svg" width="44" height="44" alt="Flutter" title="Flutter">
+  <br>
+  <sub>Flutter</sub>
+</p>
+
+**Tools and technologies**
+
+<p>
+  <img src="assets/icons/git.svg" width="44" height="44" alt="Git" title="Git">
+  <img src="assets/icons/github.svg" width="44" height="44" alt="GitHub" title="GitHub">
+  <img src="assets/icons/sqlite.svg" width="44" height="44" alt="SQLite" title="SQLite">
+  <img src="assets/icons/docker.svg" width="44" height="44" alt="Docker" title="Docker">
+  <img src="assets/icons/linux.svg" width="44" height="44" alt="Linux" title="Linux">
+  <img src="assets/icons/androidstudio.svg" width="44" height="44" alt="Android Studio" title="Android Studio">
+  <img src="assets/icons/vscode.svg" width="44" height="44" alt="VS Code" title="VS Code">
+  <br>
+  <sub>Git · GitHub · SQLite · Docker · Linux · Android Studio · VS Code</sub>
+</p>
+
+**AI and development**
+
+<p>
+  <img src="assets/icons/langchain.svg" width="44" height="44" alt="LangChain" title="LangChain">
+  <img src="assets/icons/claude.svg" width="44" height="44" alt="Claude" title="Claude">
+  <br>
+  <sub>LangChain · Claude · AI-assisted development tools</sub>
+</p>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -92,13 +93,15 @@ I learn fastest by building things people can use, so my projects tend to start 
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td>
       <b>Patient Appointment System</b><br><br>
       A clinic appointment platform: a Flutter client for desktop and mobile, backed by an ASP.NET Core API and PostgreSQL. Role-based access, real-time updates between devices, PDF and Excel reports, and Arabic and English localization.<br><br>
       <code>Flutter</code> <code>Riverpod</code> <code>ASP.NET Core</code> <code>PostgreSQL</code> <code>SignalR</code><br><br>
       <sub>Private repository</sub>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://github.com/eng-Ahmed2004/student-management-app">Student Management App</a></b><br><br>
       A Flutter app for managing student records, built for a Mobile Application Development course. Full CRUD on a local SQLite database, search, a persistent login session, and a dark mode setting.<br><br>
       <code>Flutter</code> <code>Dart</code> <code>SQLite</code> <code>SharedPreferences</code><br><br>
@@ -106,13 +109,15 @@ I learn fastest by building things people can use, so my projects tend to start 
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td>
       <b><a href="https://github.com/eng-Ahmed2004/customer-personality-analysis">Customer Personality Analysis</a></b><br><br>
       A machine learning notebook on a marketing dataset of 2,240 customers: regression on spending, classification of campaign response, and customer segmentation with K-Means and PCA.<br><br>
       <code>Python</code> <code>scikit-learn</code> <code>pandas</code> <code>Seaborn</code><br><br>
       <sub><a href="https://github.com/eng-Ahmed2004/customer-personality-analysis">Repository</a></sub>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://github.com/eng-Ahmed2004/house-prices-preprocessing">House Prices Preprocessing</a></b><br><br>
       A data preparation pipeline for the Kaggle House Prices dataset: cleaning, outlier removal, exploratory analysis, feature engineering, and encoding into model-ready tables.<br><br>
       <code>Python</code> <code>pandas</code> <code>NumPy</code> <code>Matplotlib</code><br><br>
@@ -120,13 +125,15 @@ I learn fastest by building things people can use, so my projects tend to start 
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td>
       <b><a href="https://github.com/eng-Ahmed2004/ahmed-portfolio">Personal Portfolio</a></b><br><br>
       My portfolio site, in English and Arabic with dark and light themes. Content lives in data files, separate from the components that render it.<br><br>
       <code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Framer Motion</code><br><br>
       <sub><a href="https://github.com/eng-Ahmed2004/ahmed-portfolio">Repository</a> · <a href="https://ahmed-portfolio-orcin-chi.vercel.app">Live site</a></sub>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://github.com/eng-Ahmed2004/phone-compare-pro">Phone Compare Pro</a></b><br><br>
       A responsive phone comparison site with filtering, sorting, side-by-side comparison, saved favourites, and dark mode, written without frameworks.<br><br>
       <code>HTML</code> <code>CSS</code> <code>JavaScript</code><br><br>
